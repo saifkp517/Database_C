@@ -89,10 +89,10 @@ void close_input_buffer (InputBuffer* input_buffer) {
 void execute_statement(Statement* statement) {
     switch (statement->type) {
         case(STATEMENT_INSERT):
-            printf("imma do insert here boi!\n");
+            printf("insert statement executed!\n");
             break;
         case(STATEMENT_SELECT):
-            printf("imma do select here boi!\n");
+            printf("select statement executed!\n");
             break;
     }
 }
